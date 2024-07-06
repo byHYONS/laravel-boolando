@@ -1,36 +1,15 @@
-# TEMPLATE LARAVEL PHP
+# ESERCIZIO: Laravel Boolando
 
 > [!NOTE]
 >
-> nome repo: templete_laravel-php
+> nome repo: laravel-boolando
 
-#### Impostazioni per utilizzare il template:
+### Descrizione:
 
-1. Duplicare il file `.env.exemple` e rinominarlo `.env`;
+Create un nuovo progetto Laravel. 
+Concentratevi sul layout: create un file di layout in cui inserire la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer tramite due partials.
+Create poi una rotta per visualizzare la lista di tutti i prodotti recuperati da un file inserito nella cartella config e abbellite il tutto sfruttando Sass.
 
-2. Da terminale eseguire il comando: 
-```
-composer install
-```
+#### Bonus:
+Create più pagine istituzionali che condividono lo stesso layout
 
-4. Da terminale eseguire il comando:
-```
-php artisan key:generate
-```
-
-5. Da terminale eseguire il comando:
-```
-npm install
-```
-
-6. Da terminale eseguire il comando:
-```
-php artisan serve
-```
-
-7. Aprire secondo terminale ed eseguire il comando:
-```
-npm run dev
-```
-
-##### © byHYONS™
