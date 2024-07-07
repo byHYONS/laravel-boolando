@@ -1,5 +1,5 @@
 //? import boostrap:
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 
 //? import file scss:
 @import './partials/reset';
@@ -9,6 +9,7 @@
 @import './partials/extende';
 @import './partials/mixin';
 @import './partials/common';
+@import './partials/header'
 
 
 // body {@include checkerboard(15px, $gray, $ligthGray)}

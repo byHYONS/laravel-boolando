@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+
+    $products = config('products');
+    $menu = config('menu');
+    $footer = config('footer');
+
+    $data = [
+        'products' => $products,
+        'menus' => $menu,
+        'footers' => $footer,
+    ];
+
+
+
+
+    return view('index', $data);
 });

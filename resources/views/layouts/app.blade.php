@@ -8,7 +8,9 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+    @include('shared.header')
     <h1>Hello World!</h1>
-    <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="">
+    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
+    {{-- @include('shared.footer') --}}
 </body>
 </html>

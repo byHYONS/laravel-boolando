@@ -1,1 +1,3 @@
-@extends('layout.app');
+{{-- @dd($menu); --}}
+
+@extends('layouts.app');

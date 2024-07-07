@@ -1,0 +1,73 @@
+/* --------------------------------
+            HEADER
+-------------------------------- */
+
+// variabili:
+@import '../partials/variables';
+
+header {
+    background-color: $background-header;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 90px;
+    z-index: 100;
+    box-shadow: $shodow-header;
+    align-content: center;
+}
+
+.d-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.social {
+    text-align: right;
+    img {
+        padding-left: 10px;
+        width: 9%;
+        filter: invert(100%);
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(150%);
+    }
+    }
+}
+
+.gender {
+    li  {
+        list-style-type: none;
+        padding-right: 15px;
+        display: inline-block;
+        list-style-type: none;
+    }
+    a  {
+        align-content: center;
+        text-decoration: none;
+        color: $colorText-header;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        transition: 0.5s;
+        &:hover{
+            color: $colorText2-header;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.logo{
+    text-align: center;
+    a {text-decoration: none;}
+    img {
+        width: 60%;
+    }
+}
