@@ -2,7 +2,7 @@
 
 return [
         "logoImage" => "/boolean-logo.png",
-        "nameBrand" =>"Bulando Srl",
+        "nameBrand" =>"Boolando Srl",
         "messageSocial" => "Vienici a trovare su:",
         "menuItem" => [
             "Privacy Policy",
