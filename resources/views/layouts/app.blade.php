@@ -7,14 +7,16 @@
     <title>byHYONS</title>
     @vite('resources/js/app.js')
 </head>
+
     <body>
-        {{-- ? includo l'header per tutte le pagini --}}
+        {{-- ? includo l'header per tutte le pagine --}}
         @include('shared.header')
 
             {{-- ? creo segnaposto per la sezione prodotti --}}
             @yield('products')
         
-        {{-- ? includo il footer per tutte le pagini --}}
+        {{-- ? includo il footer per tutte le pagine --}}
         @include('shared.footer')
     </body>
+    
 </html>

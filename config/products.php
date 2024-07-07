@@ -9,16 +9,8 @@ return [
         "name" => "Relaxed Fit",
         "price" => 29.99,
         "isInFavorites" => true,
-        "badges" => [
-            [
-                "type" => "tag",
-                "value" => "Sostenibilità"
-            ],
-            [
-                "type" => "discount",
-                "value" => "-50%"
-            ]
-        ]
+        "type" => "Sostenibilità",           
+        "value" => "-50%"
     ],
     [
         "id" => 2,
@@ -27,13 +19,8 @@ return [
         "brand" => "Guess",
         "name" => "Roses Tee",
         "price" => 20.99,
-        "isInFavorites" => true,
-        "badges" => [
-            [
-                "type" => "discount",
-                "value" => "-30%"
-            ]
-        ]
+        "isInFavorites" => true,         
+        "value" => "-30%"
     ],
     [
         "id" => 3,
@@ -43,12 +30,7 @@ return [
         "name" => "Voglia di colori pastello",
         "price" => 129.99,
         "isInFavorites" => false,
-        "badges" => [
-            [
-                "type" => "discount",
-                "value" => "-30%"
-            ]
-        ]
+        "value" => "-30%"
     ],
     [
         "id" => 4,
@@ -58,16 +40,8 @@ return [
         "name" => "Tee Unisex",
         "price" => 14.99,
         "isInFavorites" => false,
-        "badges" => [
-            [
-                "type" => "tag",
-                "value" => "Sostenibilità"
-            ],
-            [
-                "type" => "discount",
-                "value" => "-50%"
-            ]
-        ]
+        "type" => "Sostenibilità",
+        "value" => "-50%"
     ],
     [
         "id" => 5,
@@ -77,16 +51,8 @@ return [
         "name" => "Stripe Bodice",
         "price" => 99.99,
         "isInFavorites" => true,
-        "badges" => [
-            [
-                "type" => "tag",
-                "value" => "Sostenibilità"
-            ],
-            [
-                "type" => "discount",
-                "value" => "-50%"
-            ]
-        ]
+        "type" => "Sostenibilità",
+        "value" => "-50%",
     ],
     [
         "id" => 6,
@@ -96,11 +62,6 @@ return [
         "name" => "Maglione - Black",
         "price" => 29.99,
         "isInFavorites" => true,
-        "badges" => [
-            [
-                "type" => "tag",
-                "value" => "Sostenibilità"
-            ]
-        ]
+        "type" => "Sostenibilità",
     ]
 ];

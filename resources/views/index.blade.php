@@ -1,4 +1,5 @@
-{{-- ? estendo a tutte le pagine il layout --}}
+
+{{-- ? estendo il layout alla pagina prodotti --}}
 @extends('layouts.app')
 
 {{-- ? creo la sezione prodotti --}}
@@ -7,13 +8,17 @@
 <main>
     <div class="container">
         <div class="d-flex">
+
+            {{-- ? ciclo per i prodotti --}}            
             @foreach ($products as $product)
+
             <div class="col-33">
 
-                {{-- ? ciclo per i prodotti --}}            
+                {{-- ? card --}}
                 @include('shared.card')
                 
            </div>
+
             @endforeach
         </div>
     </div>

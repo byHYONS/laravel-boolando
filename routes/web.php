@@ -15,17 +15,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    
     $products = config('products');
     $menu = config('menu');
     $footer = config('footer');
+    $helper = config('helper');
 
     $data = [
         'products' => $products,
         'menus' => $menu,
         'footers' => $footer,
+        'badge' => $helper,
     ];
-
-
 
 
     return view('index', $data);
