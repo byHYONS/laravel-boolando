@@ -1,0 +1,71 @@
+/* -----------------------------
+            PRODUCTS
+----------------------------- */
+
+@import './variables';
+
+//? products:
+main {
+    background-color: $background;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: $width;
+    .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+        .col-33 {
+        width: calc(100% / 3 - (15px * 2 / 3));
+        }
+    }
+}
+
+//? card:
+
+.card {
+    &:hover .hover-img {display: inline-block;}
+    &:hover .defoult-img {display: none;}
+    img {width: 100%;}
+    .images {position: relative;}
+    .hover-img {display: none;}
+    .discount {
+        position: absolute;
+        left: 5px;
+        bottom: 25px;
+        font-size: 13px;
+    }
+    .percent {
+        background-color: $percScontBG;
+        color: $text1;
+        padding: 3px;
+        margin-right: 5px;
+    }
+    .tenability {
+        background-color: $sostenBG;
+        color: $text1;
+        padding: 3px;
+        margin-right: 3px;
+    }
+    .heart {                            // cuore
+        position: absolute;
+        right: 0;
+        top: 25px;
+        font-size: 25px;
+        background-color: $background;
+        padding: 3px 10px;
+        span.favorite {color: $text2;}
+        // &:hover {color: $text2;}
+    }
+    .text {margin-bottom: 50px;}        // testo card
+    .brand {font-size: 12px;}
+    .old-price {
+        text-decoration: line-through;
+        font-size: 12px;
+    }
+    .new-price {
+    font-weight: 600;
+    color: $text2;
+    margin-right: 5px;
+    font-size: 12px;
+    }
+}

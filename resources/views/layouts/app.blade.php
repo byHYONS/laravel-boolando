@@ -7,11 +7,14 @@
     <title>byHYONS</title>
     @vite('resources/js/app.js')
 </head>
-<body>
-    @include('shared.header')
-    <h1>Hello World!</h1>
-    
-    {{-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> --}}
-    @include('shared.footer')
-</body>
+    <body>
+        {{-- ? includo l'header per tutte le pagini --}}
+        @include('shared.header')
+
+            {{-- ? creo segnaposto per la sezione prodotti --}}
+            @yield('products')
+        
+        {{-- ? includo il footer per tutte le pagini --}}
+        @include('shared.footer')
+    </body>
 </html>
